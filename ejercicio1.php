@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 1</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
               <div class="col-5">
-              <form class="mt-5" action="ejercicio1.php" method="POST" >
+                 <form class="mt-5" action="ejercicio1.php" method="POST" >
                     <div class="row">
                         <div class="col mt-8">
                         <input type="text" class="form-control" placeholder="numero1" name="numero1">
@@ -24,8 +24,9 @@
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary mt-5 btn-block"name="botoncalcular">Calcular</button>
-                </form>
-                  <?php
+                   </form>
+
+                    <?php
 
                    if(isset($_POST["botoncalcular"])) 
                     {
@@ -54,10 +55,10 @@
                   ?>
 
 
-              </div>
+                </div>
             </div>
             <div class="row">
-            <a href="index.php">volver a pagina principal</a>
+            <a href="index.php">Volver a inicio</a>
             </div>
         </div>
     </main>

@@ -19,17 +19,15 @@
                 <a class="nav-link" href="ejercicio1.php">Ejercicio 1 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Ejercicio 2</a>
+                <a class="nav-link" href="ejercicio2.php">Ejercicio 2 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Ejercicio 3</a>
+            <a class="nav-link" href="ejercicio3.php">Ejercicio 3 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Ejercicio 4</a>
+            <a class="nav-link" href="ejercicio4.php">Ejercicio 4 <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Ejercicio 5</a>
-            </li>
+            
             
     </ul>
   </div>
